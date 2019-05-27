@@ -1,0 +1,31 @@
+{
+  "name": "ios-palettes",
+  "version": "1.0.0",
+  "description": "Dictionaries of iOS system colors.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rm -rf ./dist/build && tsc",
+    "prepare": "yarn build",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balgamat/ios-palettes.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "mobile development",
+    "ios",
+    "colors",
+    "color theme",
+    "system colors",
+    "ui"
+  ],
+  "author": "Matej Balga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/balgamat/ios-palettes/issues"
+  },
+  "homepage": "https://github.com/balgamat/ios-palettes#readme"
+}
