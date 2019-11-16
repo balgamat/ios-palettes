@@ -1,7 +1,8 @@
 # iOS Palettes
 
 > Dictionaries for looking up the standard iOS system colors, both for
-`Aqua` and `Dark` themes in Normal and Vibrant mutations.
+`Light` and `Dark` themes in Normal and Vibrant mutations, plus a Gray
+palette of 6 grayscale colors..
 
 ## Available colors
 The colors available are:
@@ -16,26 +17,28 @@ The colors available are:
 * **red**
 * **yellow**
 
+and also gray shades **1-6**
+
 ## Usage
 ```
 import iOSPalettes from 'ios-palettes';
 ```
 
-or
-
-```
-import { Normal } from 'ios-palettes';
-```
-
 and then use it in code
 
 ```
-const buttonColor = iOSPalettes.Normal.Aqua.green;
+const buttonColor = iOSPalettes.Light.Normal.Green;
 ```
 
 or
 
 ```
-const buttonColor = Normal.Aqua.green;
+import { Light } from 'ios-palettes';
+```
+
+and respectively
+
+```
+const titleColor = Light.Gray[1];
 ```
 

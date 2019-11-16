@@ -1,55 +1,71 @@
-import IOSPalettes, { ComplementaryPalettes } from '../index';
+import IOSPalettes from '../index';
 
-export const Normal: ComplementaryPalettes = {
-  Aqua: {
-    blue: '#007aff',
-    brown: '#a2845e',
-    gray: '#8e8e93',
-    green: '#28cd41',
-    orange: '#ff9500',
-    pink: '#ff2d55',
-    purple: '#af52de',
-    red: '#ff3b30',
-    yellow: '#ffcc00',
+export const Light = {
+  Gray: {
+    1: '#8e8e93',
+    2: '#aeaeb2',
+    3: '#c7c7cc',
+    4: '#d1d1d6',
+    5: '#e5e5ea',
+    6: '#f2f2f7',
   },
-  Dark: {
-    blue: '#6484ff',
-    brown: '#ac8e68',
-    gray: '#98989d',
-    green: '#32d74b',
-    orange: '#ff9f0a',
-    pink: '#ff375f',
-    purple: '#bf5af2',
-    red: '#ff453a',
-    yellow: '#ffd60a',
+  Normal: {
+    Blue: '#007aff',
+    Brown: '#a2845e',
+    Gray: '#8e8e93',
+    Green: '#28cd41',
+    Orange: '#ff9500',
+    Pink: '#ff2d55',
+    Purple: '#af52de',
+    Red: '#ff3b30',
+    Yellow: '#ffcc00',
+  },
+  Vibrant: {
+    Blue: '#0070f5',
+    Brown: '#987a54',
+    Gray: '#848489',
+    Green: '#1ec337',
+    Orange: '#f58b00',
+    Pink: '#f5234b',
+    Purple: '#9f4bc9',
+    Red: '#f53126',
+    Yellow: '#f5c200',
   }
 };
 
-export const Vibrant: ComplementaryPalettes = {
-  Aqua: {
-    blue: '#0070f5',
-    brown: '#987a54',
-    gray: '#848489',
-    green: '#1ec337',
-    orange: '#f58b00',
-    pink: '#f5234b',
-    purple: '#9f4bc9',
-    red: '#f53126',
-    yellow: '#f5c200',
+export const Dark = {
+  Gray: {
+    1: '#8e8e93',
+    2: '#636366',
+    3: '#48484a',
+    4: '#3a3a3c',
+    5: '#2c2c2e',
+    6: '#1c1c1e',
   },
-  Dark: {
-    blue: '#148eff',
-    brown: '#b69872',
-    gray: '#a2a2a7',
-    green: '#3ce155',
-    orange: '#ffa914',
-    pink: '#ff4169',
-    purple: '#cc65ff',
-    red: '#ff4f44',
-    yellow: '#ffe014',
+  Normal: {
+    Blue: '#6484ff',
+    Brown: '#ac8e68',
+    Gray: '#98989d',
+    Green: '#32d74b',
+    Orange: '#ff9f0a',
+    Pink: '#ff375f',
+    Purple: '#bf5af2',
+    Red: '#ff453a',
+    Yellow: '#ffd60a',
+  },
+  Vibrant: {
+    Blue: '#148eff',
+    Brown: '#b69872',
+    Gray: '#a2a2a7',
+    Green: '#3ce155',
+    Orange: '#ffa914',
+    Pink: '#ff4169',
+    Purple: '#cc65ff',
+    Red: '#ff4f44',
+    Yellow: '#ffe014',
   }
 };
 
-const iOSPalettes: IOSPalettes = { Normal, Vibrant };
+const iOSPalettes: IOSPalettes = { Light, Dark };
 
 export default iOSPalettes;

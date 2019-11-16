@@ -1,10 +1,10 @@
 {
   "name": "ios-palettes",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "Dictionaries of iOS system colors.",
-  "main": "src/index.ts",
+  "main": "build/index.js",
   "scripts": {
-    "build": "rm -rf ./dist/build && tsc",
+    "build": "rm -rf ./build && tsc",
     "prepare": "yarn build",
     "test": "echo \"Error: no test specified\""
   },
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/balgamat/ios-palettes/issues"
   },
-  "homepage": "https://github.com/balgamat/ios-palettes#readme"
+  "homepage": "https://github.com/balgamat/ios-palettes#readme",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
 }
